@@ -27,6 +27,15 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
+    <repository>
+    <id>central</id>
+    <name>Maven Repository Switchboard</name>
+    <layout>default</layout>
+    <url>https://repo1.maven.org/maven2</url>
+    <snapshots>
+      <enabled>false</enabled>
+    </snapshots>
+  </repository>
   </distributionManagement>
 
   <build>
