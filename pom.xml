@@ -29,9 +29,9 @@
     </site>
     <repository>
     <id>central</id>
-    <name>Maven Repository Switchboard</name>
+    <name>Local repository</name>
     <layout>default</layout>
-    <url>https://repo1.maven.org/maven2</url>
+    <url>file://var/lib/jenkins/.m2/repository</url>
     <snapshots>
       <enabled>false</enabled>
     </snapshots>
